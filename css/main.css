@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .logo {
   font-size: 15px;
   color: rgb(241, 232, 221);
   font-family: "Lobster", cursive;
 }
-.navbar {
+header {
   align-items: center;
   padding: 3%;
   background-color: #791029;
