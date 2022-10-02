@@ -5,13 +5,27 @@
   font-family: "Lobster", cursive;
 }
 header {
+  display: flex;
   align-items: center;
-  padding: 3%;
+  padding: 30px;
   background-color: #791029;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
 }
 
 a {
-  color: #791029;
+  color: rgb(241, 232, 221);
+  text-decoration: none;
 }
 
 p {
@@ -59,19 +73,20 @@ article {
   text-align: center;
   font-size: 50px;
   color: #791029;
+  margin-bottom: 40px;
 }
 
 .button {
   display: block;
+  width: 30%;
+  margin: auto;
   font-size: 30px;
   background: rgb(241, 232, 221);
   color: #791029;
-  padding: 20px 30px;
+  padding: 10px 30px;
   border-radius: 30px;
   text-align: center;
-  margin: 20px 500px;
   border: 0.2em solid #791029;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  text-decoration: none;
 }

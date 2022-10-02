@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;700&display=swap");
+.logo {
+  font-size: 15px;
+  color: rgb(241, 232, 221);
+  font-family: "Lobster", cursive;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: #791029;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+a {
+  color: rgb(241, 232, 221);
+  text-decoration: none;
+}
+
+section {
+  background: linear-gradient(#e8f7fe, #ade1fc);
+}
+
+.container {
+  padding: 1rem 10rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  flex-basis: 50%;
+  padding: 7vh 5vw;
+}
+
+.col img {
+  max-width: 100%;
+}
+
+.col h1 {
+  font-size: 50px;
+  margin: 50px 0;
+  font-size: 40px;
+  color: #791029;
+  font-family: "Lobster", cursive;
+}
+.col h3 {
+  font-size: 30px;
+  margin: 50px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.col h2 {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.col p {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+}
+.button {
+  font-size: 20px;
+  background: #791029;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.grid-container {
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  border-radius: 1rem;
+  padding: 2rem;
+  background: linear-gradient(#e8f7fe, #ade1fc);
+}
+.flex-container h1 {
+  margin: 1rem 0 0;
+  color: #791029;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.flex-container p {
+  margin: 1rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.flex-container img {
+  align-self: center;
+}
+.flex-container .button {
+  margin-top: auto;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
