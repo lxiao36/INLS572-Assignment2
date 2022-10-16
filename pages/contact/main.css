@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;700&display=swap");
+.logo {
+  font-size: 15px;
+  color: rgb(241, 232, 221);
+  font-family: "Lobster", cursive;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: #791029;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+a {
+  color: rgb(241, 232, 221);
+  text-decoration: none;
+   transition: .3s;
+}
+
+a:hover{
+	color: rgb(219, 191, 158);
+}
+
+body {
+  background: linear-gradient(#e8f7fe, #ade1fc);
+}
+
+.container {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.contact{
+	max-width: 850px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+	padding: 25px 40px;
+}
+.contact h1{
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+  text-align: center;
+  color: #791029;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.field{
+	width: 100%;
+	border: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.message{
+	min-height: 150px;
+}
+.button {
+	display: block;
+	width: 100%;
+	margin: auto;
+	font-size: 1.1rem;
+	background: #791029;
+	color:rgb(241, 232, 221) ;
+	padding: 10px 30px;
+	border-radius: 30px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	transition: .3s;
+  }
+
+.button:hover{
+    background-color: #480d1a;
+}
+
+@media (max-width: 858px) {
+	.container {
+		margin-top: 0px;
+	}
+	header {
+		padding: 20px;
+	  }
+}
+
+
