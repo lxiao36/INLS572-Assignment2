@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../../css/reset.css" />
     <link rel="stylesheet" href="./main.css" />
-    <script src="./js/main.js" defer></script>
+    <script src="../../js/main.js" defer></script>
     <script
       src="https://kit.fontawesome.com/a703bac31c.js"
       crossorigin="anonymous"
@@ -28,7 +29,16 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <img src="../../images/portable-blender.webp" alt="blender" />
+            <div class="slide-container">
+              <img class="mySlides" src="../../images/portable-blender.webp" alt="pinkblender">
+              <img class="mySlides" src="../../images/Blender-IMG1.jpeg" alt="blenderWfruit">
+              <img class="mySlides" src="../../images/Blender-IMG2.jpeg" alt="blenderWdrink">
+              <img class="mySlides" src="../../images/Blender-IMG3.jpeg" alt="pineappledrink">
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <p class="captions">The slideshow allows the buyer have a more detailed look at the blender, justifying the price and further persuading the visitor to purchase.</p>
+            
           </div>
           <div class="col">
             <h1>HandyBlend Blender</h1>

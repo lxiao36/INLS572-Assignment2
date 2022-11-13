@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&family=Source+Sans+Pro&display=swap');
-.logo {
-  font-size: 15px;
+.logo h1 {
+  font-size: 2rem;
   color: rgb(241, 232, 221);
   font-family: "Lobster", cursive;
 }
@@ -54,7 +54,21 @@ section {
   padding: 7vh 5vw;
 }
 
+.slide-container{
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+
+.captions{
+  font-style: italic;
+  color: rgb(101, 101, 101);
+}
+
 .col img {
+  margin: auto;
+  display: block;
+  max-height: 30rem;
   max-width: 100%;
 }
 
