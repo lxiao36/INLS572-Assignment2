@@ -47,9 +47,6 @@ body {
 
 .contact{
 	max-width: 850px;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 	padding: 25px 40px;
@@ -68,7 +65,7 @@ body {
 	border: none;
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	margin-bottom: 22px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -94,6 +91,11 @@ body {
 
 .button:hover{
     background-color: #480d1a;
+}
+
+.contact label{
+	font-size: 1.25rem;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media (max-width: 858px) {
